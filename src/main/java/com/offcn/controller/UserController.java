@@ -36,4 +36,9 @@ public class UserController {
     public List<User> getAll(){
         return userService.getAll();
     }
+    
+    
+    public  String hello(){
+       return "hello world";
+    }
 }
